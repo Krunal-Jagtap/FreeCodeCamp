@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation bar Start */
+nav {
+    background-color: rgba(45, 45, 45, 0.881);
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Navigation bar end */
+
+
+/* Container Section Start */
+.container {
+    background-color: rgb(45, 45, 45);
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 40px;
+    text-align: justify;
+}
+
+nav header {
+    text-align: center;
+    width: 20vw;
+    font-size: 2.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fefe00;
+}
+
+section header {
+    font-size: 2.4rem;
+    margin-block: 4vh;
+
+}
+
+section p,
+code {
+    font-size: 1rem;
+    padding-left: 2vw;
+}
+
+section ul {
+    padding-left: 6vw;
+
+}
+
+code {
+    background-color: lightgray;
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    display: block;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+section ul li,
+p {
+    margin-block: 4vh;
+}
+
+/* Container Section end */
+
+/* Web Page Responsiveness Start */
+@media only screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100vw;
+        height: 70vh;
+        text-align: center;
+    }
+
+    nav header {
+        width: 100vw;
+        font-size: 8vw;
+
+    }
+
+    .container {
+        width: 100vw;
+        z-index: 999;
+    }
+
+    section header {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    code {
+        font-size: 0.8rem;
+    }
+}
+
+/* Web Page Responsiveness Complete */
