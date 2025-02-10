@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build a Product Landing Page</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/10817/10817310.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navbar - Header Start -->
+  <header id="header">
+    <div class="img">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/1920px-FreeCodeCamp_logo.svg.png"
+        alt="FreeCodeCamp_logo" id="header-img" />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#demo">Demo</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Navbar - Header end -->
+
+  <!-- YouTube Video Section Start -->
+  <main id="demo">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/a_iQb1lnAEQ?si=FBTlbrJVewmp-Icy"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+  </main>
+  <!-- YouTube Video Section end -->
+
+  <!-- Features Section Start -->
+  <section id="features">
+    <h2>Our Features</h2>
+
+    <div class="Features">
+      <div class="box">
+        <p class="title">Premium Materials</p>
+        <p class="desc">
+          When you’re just getting started exploring the world of tech, having
+          the right programming tools for beginners makes a world of
+          difference
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">Languages - Tools</p>
+        <p class="desc">
+          HTML - CSS - JavaScript - Bootstrap - TailwindCSS - Git and GitHub -
+          ReactJS - Express - MongoDB - Sql - Python - Etc
+        </p>
+      </div>
+
+      <div class="box">
+        <p class="title">Artificial Intelligence</p>
+        <p class="desc">
+          Artificial intelligence (AI) is a set of technologies that enable
+          computers to perform a variety of advanced functions
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Features Section End -->
+
+  <!-- Pricing Section Start -->
+  <section id="pricing">
+    <h3>It's all Free</h3>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Enter your E-mail" required />
+
+      <label for="submit"></label>
+      <input type="submit" value="Join now" id="submit" />
+    </form>
+  </section>
+  <!-- Pricing Section End -->
+</body>
+
+</html>
